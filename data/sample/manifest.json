@@ -1,0 +1,29 @@
+{
+  "version_fuente": "Mapa de Referencia V.12.25 (copia local)",
+  "archivo_fuente": "GPKG_MR_V1225.gpkg",
+  "bytes_fuente": 4408311808,
+  "url_fuente": "https://www.ideca.gov.co/node/6476",
+  "fecha_descarga_original": null,
+  "crs": "EPSG:4686",
+  "capas": [
+    {
+      "nombre": "Loca",
+      "last_change": "2023-08-29T16:41:35.968Z",
+      "srs_id": 4686
+    },
+    {
+      "nombre": "PSITP",
+      "last_change": "2026-02-09T21:27:55.044Z",
+      "srs_id": 4686
+    }
+  ],
+  "conteos": {
+    "PSITP": 7623,
+    "Loca": 20
+  },
+  "archivos": {
+    "paraderos_origen.csv": "5e541be4eda5e4b5fd699549c97a8edc3ac1c62b995833dbcf816b71fba54d6d",
+    "localidades_origen.geojson": "2f1ed75eaf7b476bad16fc8957adcee35187a233b872a38414e6fa61a3b53c14"
+  },
+  "nota": "Los hashes identifican los extractos; no certifican identidad con la descarga oficial. Sin observaciones de campo."
+}

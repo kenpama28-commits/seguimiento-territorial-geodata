@@ -1,0 +1,22 @@
+{
+  "paraderos_entrada": 7623,
+  "paraderos_salida": 7623,
+  "localidades": 20,
+  "puntos_corregidos": 2,
+  "poligonos_corregidos": 0,
+  "geometrias_finales_validas": 7623,
+  "coordenadas_finales_en_rango": 7623,
+  "asignados_localidad": 7620,
+  "sin_interseccion": 3,
+  "interseccion_multiple": 0,
+  "diferencias_mayores_10_m": 1,
+  "registros_pendientes_revision": 4,
+  "visitas_reales": 0,
+  "crs_analisis": "EPSG:4686",
+  "crs_geojson_salida": "EPSG:4326",
+  "metodo_distancia": "geodésica sobre elipsoide GRS80, metros",
+  "hashes_insumos": {
+    "paraderos_origen.csv": "5e541be4eda5e4b5fd699549c97a8edc3ac1c62b995833dbcf816b71fba54d6d",
+    "localidades_origen.geojson": "2f1ed75eaf7b476bad16fc8957adcee35187a233b872a38414e6fa61a3b53c14"
+  }
+}

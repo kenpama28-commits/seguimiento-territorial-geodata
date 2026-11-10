@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Generar base territorial y reportes",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.pipeline",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

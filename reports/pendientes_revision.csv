@@ -1,0 +1,5 @@
+fid_origen,objectid,cenefa,nombre,via,direccion_,localidad,longitud,latitud,x_origen,y_origen,geometria_corregida,diferencia_atributos_m,codigo_localidad,nombre_localidad,estado_territorial,revision_coordenadas
+4007,4007,272A09,Br. La Estación,KR 77 G,KR 77G - CL 65 J Sur,Bosa,-74.186374,4.596718,-74.18637399999994,4.596718000000067,False,9.664382939174883e-09,,,sin_interseccion,False
+5053,5053,365A10,Br. Los tres Reyes I,(en blanco),KR 77C - CL 62I Sur,Ciudad Bolívar,-74.18071056,4.58607055,-74.18071055599995,4.5860705490000555,False,0.00045743243289271275,,,sin_interseccion,False
+5064,5064,366A10,Br. Los tres Reyes I,(en blanco),KR 77C - CL 62I Sur,Ciudad Bolívar,-74.18087382,4.58707381,-74.18087382099992,4.587073812000085,False,0.0002474438987287888,,,sin_interseccion,False
+7622,7622,680A08,,TV 64,TV 64 - CL 1,Puente Aranda,-74.124231,4.619924,-74.12410808299995,4.619901333000087,False,13.867310735951769,16,PUENTE ARANDA,asignado,True

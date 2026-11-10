@@ -1,0 +1,3 @@
+fid_origen,cenefa,x_antes,y_antes,x_despues,y_despues,crs,motivo,metodo
+7621,024B04,-1.7976931348623157e+308,-1.7976931348623157e+308,-74.103042,4.717693,EPSG:4686,coordenadas_fuera_de_rango,reconstruccion_desde_longitud_latitud_fuente
+7623,534C09,-1.7976931348623157e+308,-1.7976931348623157e+308,-74.204501,4.630389,EPSG:4686,coordenadas_fuera_de_rango,reconstruccion_desde_longitud_latitud_fuente
