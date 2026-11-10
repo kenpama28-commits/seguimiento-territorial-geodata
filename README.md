@@ -82,8 +82,8 @@ Consultar [procedencia y condiciones de los datos](data/README.md), [metodologí
 
 ## Presentación y publicación
 
-- [Abrir en VS Code y subir a GitHub](PUBLICACION_GITHUB.md).
+- [Abrir en VS Code y mantener el repositorio en GitHub](PUBLICACION_GITHUB.md).
 - [Guion de demostración de tres minutos](docs/GUION_PRESENTACION.md).
 - [Diagnóstico original de reutilización de fuentes](docs/VIABILIDAD_DATOS.md).
 
-La configuración de GitHub Actions está preparada. Su ejecución remota solo podrá verificarse después de subir el repositorio.
+Repositorio público: [kenpama28-commits/seguimiento-territorial-geodata](https://github.com/kenpama28-commits/seguimiento-territorial-geodata). La validación automática se consulta en la pestaña Actions.

@@ -1,4 +1,4 @@
-# Ejecutar en VS Code y publicar
+# Ejecutar en VS Code y actualizar GitHub
 
 ## Trabajo local
 
@@ -14,22 +14,22 @@ Alternativa local si ya se dispone de QGIS 3.44.1 y sus módulos Python:
 & 'C:\Program Files\QGIS 3.44.1\bin\python-qgis.bat' -m unittest discover -s tests -v
 ```
 
-## Publicación inicial
+## Actualizar el repositorio publicado
 
-La preparación local no crea ni publica un repositorio remoto. La cuenta observada durante el diagnóstico es [kenpama28-commits](https://github.com/kenpama28-commits).
+El repositorio público ya está en [kenpama28-commits/seguimiento-territorial-geodata](https://github.com/kenpama28-commits/seguimiento-territorial-geodata). La rama local `main` sigue `origin/main`.
 
-1. Crear en GitHub un repositorio vacío `seguimiento-territorial-geodata`, sin README, licencia ni `.gitignore` adicionales.
-2. Desde esta carpeta comprobar `git status` y `git log -1 --oneline`. Revisar los archivos del commit inicial con `git show --stat`.
-3. Copiar la URL HTTPS que GitHub muestre y ejecutar:
+1. Desde esta carpeta comprobar `git status` y revisar los cambios con `git diff`.
+2. Después de ejecutar las pruebas, registrar y subir cambios deliberados:
 
 ```powershell
-git remote add origin https://github.com/kenpama28-commits/seguimiento-territorial-geodata.git
-git push -u origin main
+git add README.md src tests docs
+git commit -m "Describe el cambio realizado"
+git push
 ```
 
-Si `origin` ya existe, consultar `git remote -v` y comprobar su destino antes de modificarlo. No utilizar `--force`. La autenticación se realiza con el administrador de credenciales de Git/GitHub; nunca escribir tokens en scripts o documentación.
+El ejemplo de `git add` muestra carpetas frecuentes; incluir solo los archivos del cambio y revisar `git status` antes del commit. No utilizar `--force`. La autenticación se realiza con el administrador de credenciales de Git/GitHub; nunca escribir tokens en scripts o documentación.
 
-4. Abrir la pestaña Actions y comprobar la ejecución de “Calidad de datos y pipeline”. La configuración está preparada, pero el resultado remoto no se conoce hasta publicar.
-5. Confirmar que GitHub renderiza el README, mapa, notebook, atribuciones y reportes. Descripción sugerida: “Inventario territorial SITP Bogotá: control de coordenadas, reparación trazable, cruce por localidad y base para seguimiento en campo”. Temas sugeridos: `gis`, `geodata`, `python`, `geopandas`, `bogota`, `data-quality`.
+3. Abrir la pestaña Actions y comprobar la ejecución de “Calidad de datos y pipeline”.
+4. Confirmar que GitHub renderiza el README, mapa, notebook, atribuciones y reportes. Temas sugeridos: `gis`, `geodata`, `python`, `geopandas`, `bogota`, `data-quality`.
 
 Se versionan los extractos ligeros y la evidencia de calidad. Los GeoPackage, bases grandes, `.env`, entornos virtuales y posibles registros privados quedan excluidos. No se necesita Git LFS para esta entrega.

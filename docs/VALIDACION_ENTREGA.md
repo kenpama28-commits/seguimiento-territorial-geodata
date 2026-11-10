@@ -10,6 +10,6 @@ Fecha: 10 de noviembre de 2026.
 - Mapa generado y revisado visualmente; bitácora y listado de excepciones revisados.
 - Insumos y reportes disponibles sin descargar la base original. Manifiesto con SHA-256 para detectar cambios en los extractos.
 
-La instalación desde cero en un entorno virtual independiente y la ejecución Linux de GitHub Actions no se han comprobado todavía. El workflow está preparado para validarlas al publicar. No se ha publicado un remoto desde esta entrega.
+La instalación desde cero en un entorno virtual independiente no se ha comprobado todavía. El repositorio público está en `https://github.com/kenpama28-commits/seguimiento-territorial-geodata`; consultar Actions para el resultado de Linux.
 
 Los cuatro casos de revisión geográfica continúan abiertos. No se registraron visitas reales ni se afirma cobertura operativa.
