@@ -82,6 +82,21 @@ Consultar [procedencia y condiciones de los datos](data/README.md), [metodologí
 
 ## Presentación y publicación
 
+### Analítica y automatización de reportes
+
+Después del pipeline geográfico, ejecutar `python -m src.reporting`.
+El módulo carga 7.623 registros en SQLite con restricciones de integridad y reemplazo
+transaccional; genera indicadores SQL por localidad, un CSV para BI y un reporte HTML.
+Las tres pruebas nuevas verifican repetición sin duplicados, conteo único de pendientes
+y conservación del inventario anterior ante una carga inválida.
+
+- [Reporte HTML descargable](reports/analitica/dashboard.html).
+- [Indicadores por localidad](reports/analitica/kpi_localidad.csv).
+- [Metodología, medidas DAX y guion de demostración](docs/ANALITICA_BI.md).
+
+Los indicadores describen calidad del inventario. No representan visitas realizadas,
+ventas ni niveles de servicio. La conexión a Power BI se prepara por CSV; este módulo no incluye PBIX.
+
 - [Abrir en VS Code y mantener el repositorio en GitHub](PUBLICACION_GITHUB.md).
 - [Guion de demostración de tres minutos](docs/GUION_PRESENTACION.md).
 - [Diagnóstico original de reutilización de fuentes](docs/VIABILIDAD_DATOS.md).
